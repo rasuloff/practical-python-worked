@@ -13,7 +13,6 @@ def portfolio_cost(filename):
             total_cost += number_shares * price
     return total_cost
 
-cost = portfolio_cost('C:/Users/Admin/Documents/Python/practical-python/Work/Data/portfolio.csv')
+cost = portfolio_cost('Data/portfolio.csv') # this works if you run it in CMD or Terminal within the Work folder from course
 print('Total Cost:', cost)
 
-    

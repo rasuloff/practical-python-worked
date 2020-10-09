@@ -22,8 +22,7 @@ def portfolio_cost(filename):
 if len(sys.argv) == 2:
     filename = sys.srgv[1]
 else:
-    # or 'Data/portfolio.csv' if you run from terminal
-    filename = 'C:/Users/Admin/Documents/Python/practical-python/Work/Data/portfolio.csv'
+    filename = 'Data/portfolio.csv'
 
 cost = portfolio_cost(filename)
 print('Total Cost:', cost)

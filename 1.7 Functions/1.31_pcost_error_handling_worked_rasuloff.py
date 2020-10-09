@@ -16,5 +16,5 @@ def portfolio_cost(filename):
                 print('Warning - Error in row:', row)
     return total_cost
 
-cost = portfolio_cost('C:/Users/Admin/Documents/Python/practical-python/Work/Data/portfolio.csv')
+cost = portfolio_cost('Data/portfolio.csv')
 print('Total Cost:', cost)
